@@ -6,7 +6,7 @@ This project is an Arduino-based industrial temperature monitoring system with a
 ## Problem Statement
 Overheating in industrial environments can damage equipment and cause operational downtime.
 
-## ⚙ System Features
+## System Features
 - Real-time temperature display on LCD
 - Alarm activation when threshold exceeds
 - Simple Human-Machine Interface (HMI) concept
