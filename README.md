@@ -27,3 +27,39 @@ Overheating in industrial environments can damage equipment and cause operationa
 - IoT remote monitoring
 - Cloud data logging
 - SMS alert system
+
+
+## Hardware Connections
+
+### LM35 Temperature Sensor
+| LM35 Pin | Arduino Connection |
+|----------|--------------------|
+| VCC      | 5V                 |
+| OUT      | A0                 |
+| GND      | GND                |
+
+
+### 16x2 LCD Display (4-bit Mode)
+| LCD Pin | Arduino Connection |
+|----------|--------------------|
+| RS       | 12                 |
+| E        | 11                 |
+| D4       | 5                  |
+| D5       | 4                  |
+| D6       | 3                  |
+| D7       | 2                  |
+| VSS      | GND                |
+| VDD      | 5V                 |
+| VO       | Potentiometer (for contrast) |
+
+
+### Buzzer
+| Buzzer Pin | Arduino Connection |
+|------------|--------------------|
+| Positive   | Digital Pin 8      |
+| Negative   | GND                |
+
+
+## Safety Note
+This project is a prototype for demonstration purposes. 
+For real industrial systems, proper isolation, industrial-grade sensors, and certified protection devices must be used.
